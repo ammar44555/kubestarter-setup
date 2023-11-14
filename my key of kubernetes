@@ -1,3 +1,9 @@
 kubeadm join 10.0.2.15:6443 --token zn6dq4.p7jgfhjkkvuqpkv6 \
     --discovery-token-ca-cert-hash sha256:aa0897e26e80ac6af6201109d9954232cf2e7fe433f13ea1c0c0e60acabf1951 
  kubeadm join 10.0.2.15:6443 --token 0z045z.3iaylbliyxsc06yo     --discovery-token-ca-cert-hash sha256:aa0897e26e80ac6af6201109d9954232cf2e7fe433f13ea1c0c0e60acabf1951 
+
+
+-------------------------------------------------------------------------------
+ sudo firewall-cmd --zone=<public/or-other-zone> --add-port=6443/tcp --permanent
+ sudo firewall-cmd --reload
+ sudo firewall-cmd --list-all
