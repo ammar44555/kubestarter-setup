@@ -14,3 +14,9 @@ kubeadm join 10.0.2.15:6443 --token rqpyt9.o69ekiuanwxxebnr \
 ---------------------------------------------------------------
 setup grafana pro,loki
 https://docs.google.com/document/d/1kHhk2LYss_c2pbBCCSXo4sqaqwNF3bj_MIiqm8L5b1U/edit
+
+
+
+kubeadm join 192.168.226.129:6443 --token qzfxnw.6vr4f5j25nmizzoq     --discovery-token-ca-cert-hash sha256:ae2ede77fee18a5c84fda554c021d700e7f01c944033acd538e63e84e964979e 
+
+kubeadm join 192.168.226.129:6443 --token qzfxnw.6vr4f5j25nmizzoq     --discovery-token-ca-cert-hash sha256:ae2ede77fee18a5c84fda554c021d700e7f01c944033acd538e63e84e964979e 
