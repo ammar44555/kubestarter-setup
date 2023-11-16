@@ -28,6 +28,25 @@ and I found how to solve this question.
     sudo -i
     swapoff -a
     exit
+*****************YAML Files used in demo************************
+
+EXAMPLE OF LABELS
+
+
+kind: Pod
+apiVersion: v1
+metadata:
+  name: delhipod
+  labels:                                                   
+    env: development
+    class: pods
+spec:
+    containers:
+       - name: c00
+         image: ubuntu
+         command: ["/bin/bash", "-c", "while true; do echo Hello-Bhupinder; sleep 5 ; done"]
+
     strace -eopenat kubectl version
 
 and you can type kubectl get nodes again.
+
