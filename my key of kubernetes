@@ -28,6 +28,8 @@ and I found how to solve this question.
     sudo -i
     swapoff -a
     exit
+strace -eopenat kubectl version
+
 *****************YAML Files used in demo************************
 
 EXAMPLE OF LABELS
